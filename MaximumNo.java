@@ -26,4 +26,8 @@ public class MaximumNO<T extends Comparable<T>> {
         Arrays.sort(sortElements);
         System.out.println(Arrays.toString(sortElements));
     }
+
+    public void	FindMaximumNumbers(T x, T y, T z){
+        testMax(x, y, z);
+    }
 }
