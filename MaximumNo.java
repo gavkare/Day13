@@ -1,6 +1,6 @@
 package Day13;
 import java.util.Arrays;
-public class MaximumNo<T extends Comparable<T>> {
+public class MaximumNO<T extends Comparable<T>> {
     public static <T extends Comparable<T>> T maximum(T x, T y, T z) {
         T max = x;
         if (y.compareTo(max) > 0)
@@ -21,4 +21,9 @@ public class MaximumNo<T extends Comparable<T>> {
         System.out.println("Maximum value is :" +max);
     }
 
+
+    public void sort( int [] sortElements) {
+        Arrays.sort(sortElements);
+        System.out.println(Arrays.toString(sortElements));
+    }
 }
